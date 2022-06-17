@@ -1,7 +1,21 @@
+/* ---- comman section ------------- */
 body {
-  /* background-color: blue; */
-  margin: 0;
+  background-color: #f8f8f8;
 }
+.section {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+.section-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  size: 12px;
+}
+.section-title {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 .header {
   background-color: #0779e4;
   color: #fff;
@@ -24,4 +38,21 @@ body {
 }
 .nav-link:hover {
   background-color: aqua;
+}
+
+/* / header ---------------------------- */
+/* services sektion ----- */
+.services-card {
+  display: flex;
+  margin-bottom: 2rem;
+  padding: 1.5em;
+  gap: 15px;
+}
+.services-card .card {
+  background-color: #fff;
+  flex-basis: 33%;
+}
+.card-title,
+.card-link {
+  color: #0779e4;
 }
